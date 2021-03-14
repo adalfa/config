@@ -5,6 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 shopt -s autocd
+set -o vi
 # User specific aliases and functions
 if [ -f `which powerline-daemon` ]; then
   powerline-daemon -q
