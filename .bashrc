@@ -17,6 +17,7 @@ fi
 # added by Anaconda2 installer
 export PATH="/home/andrea/bin/azure-functions-cli:/home/andrea/bin/Telegram:/home/andrea/anaconda2/bin:$PATH"
 export BROWSER=google-chrome
+export HISTCONTROL=ignoreboth
 alias icat="kitty +kitten icat"
 alias mdcat="mdcat -p"
 alias l.='ls -d .* --color=auto'
