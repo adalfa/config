@@ -29,6 +29,7 @@ alias cds='cd ~/src'
 alias cfrc='vim ~/.config/openbox/rc.xml'
 alias cfbs='vim ~/.bashrc'
 alias yt='youtube-dl --add-metadata'
+alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf'
 alias yta='yt -x -f bestaudio/best'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 [ -r /home/andrea/.byobu/prompt ] && . /home/andrea/.byobu/prompt   #byobu-prompt#
