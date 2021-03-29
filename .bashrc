@@ -17,6 +17,7 @@ fi
 # added by Anaconda2 installer
 export PATH="/home/andrea/bin/azure-functions-cli:/home/andrea/bin/Telegram:/home/andrea/anaconda2/bin:$PATH"
 export BROWSER=google-chrome
+export EDITOR=vim
 export HISTCONTROL=ignoreboth
 alias icat="kitty +kitten icat"
 alias mdcat="mdcat -p"
@@ -30,6 +31,7 @@ alias cfrc='vim ~/.config/openbox/rc.xml'
 alias cfbs='vim ~/.bashrc'
 alias yt='youtube-dl --add-metadata'
 alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf'
+alias ff="find ~/doc -type f -name *.txt -o -name *.md | cut -f2 | fzf --preview='bat {}'| parallel -X --tty $EDITOR"
 alias yta='yt -x -f bestaudio/best'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 [ -r /home/andrea/.byobu/prompt ] && . /home/andrea/.byobu/prompt   #byobu-prompt#
