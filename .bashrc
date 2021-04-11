@@ -33,7 +33,7 @@ alias cfbs='vim ~/.bashrc'
 alias yt='youtube-dl --add-metadata'
 alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf'
 alias ff="find ~/doc -type f -name '*.txt' -o -name '*.md' | cut -f2 | fzf --preview='bat {}'| parallel -X --tty $EDITOR"
-alias fp='zathura $(find ~/doc -type f -name *.pdf| cut -f2 | fzf )'
+alias fp='zathura --fork $(find ~/doc -type f -name "*.pdf"| cut -f2 | fzf )'
 alias yta='yt -x -f bestaudio/best'
 alias bettie='feh --bg-max --no-fehbg --randomize /home/andrea/doc/screen/bp'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
