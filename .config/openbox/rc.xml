@@ -308,6 +308,11 @@
 	      <execute>/home/andrea/bin/Telegram/Telegram</execute>
       </action>
     </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+	      <execute>xlock</execute>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

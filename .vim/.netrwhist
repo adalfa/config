@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/andrea/.config/openbox'
 let g:netrw_dirhist_2='/home/andrea/doc/node/node_modules/redis/lib'
 let g:netrw_dirhist_3='/usr/local/src/apache-nutch-1.4-bin/runtime/local/urls'
+let g:netrw_dirhist_4='/home/andrea/.ssh'
