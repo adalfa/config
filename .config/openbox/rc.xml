@@ -293,6 +293,11 @@
 	      <execute>~/dmenu/ssh.sh</execute>
       </action>
     </keybind>
+    <keybind key="W-r">
+      <action name="Execute">
+	      <execute>~/dmenu/remmina.sh</execute>
+      </action>
+    </keybind>
     <keybind key="W-x">
       <action name="Execute">
         <execute>xterm</execute>
@@ -738,6 +743,9 @@
     </application>
     <application name="IEXPLORE.EXE">
       <desktop>1</desktop>
+    </application>
+    <application name="remmina">
+      <desktop>3</desktop>
     </application>
     <application name="eclipse">
       <desktop>3</desktop>
