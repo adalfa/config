@@ -265,7 +265,7 @@
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <execute>google-chrome</execute>
+        <execute>brave-browser</execute>
       </action>
     </keybind>
     <keybind key="W-k">
@@ -733,6 +733,9 @@
       <desktop>1</desktop>
     </application>
     <application name="mailspring">
+      <desktop>1</desktop>
+    </application>
+    <application name="brave-browser">
       <desktop>1</desktop>
     </application>
     <application name="google-chrome">
