@@ -250,7 +250,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-	      <execute>mailspring</execute>
+	      <execute>~/dmenu/remmina.sh</execute>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -291,11 +291,6 @@
     <keybind key="W-s">
       <action name="Execute">
 	      <execute>~/dmenu/ssh.sh</execute>
-      </action>
-    </keybind>
-    <keybind key="W-r">
-      <action name="Execute">
-	      <execute>~/dmenu/remmina.sh</execute>
       </action>
     </keybind>
     <keybind key="W-x">
