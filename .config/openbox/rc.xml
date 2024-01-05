@@ -265,7 +265,7 @@
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <execute>brave-browser</execute>
+        <execute>google-chrome</execute>
       </action>
     </keybind>
     <keybind key="W-k">
@@ -273,7 +273,7 @@
         <execute>/home/andrea/.local/kitty.app/bin/kitty</execute>
       </action>
       </keybind>
-    <keybind key="0xab">
+    <keybind key="XF86Launch1">
       <action name="Execute">
         <execute>pavucontrol</execute>
       </action>
