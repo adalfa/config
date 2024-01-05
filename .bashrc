@@ -19,6 +19,7 @@ fi
 export BROWSER=google-chrome
 export EDITOR=vim
 export HISTCONTROL=ignoreboth
+export HISTSIZE=
 alias icat="kitty +kitten icat"
 alias mdcat="mdcat -p"
 alias l.='ls -d .* --color=auto'
