@@ -5,4 +5,5 @@ dunst &
 
 #/home/andrea/bin/davmail/davmail.sh &
 compton & 
-gkrellm -w 
+conky &
+#gkrellm -w 
