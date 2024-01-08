@@ -788,9 +788,6 @@
     <application name="remmina">
       <desktop>3</desktop>
     </application>
-    <application name="eclipse">
-      <desktop>3</desktop>
-    </application>
     <application name="kitty">
     <decor>no</decor>
   </application>
