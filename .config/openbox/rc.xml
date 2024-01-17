@@ -263,6 +263,11 @@
         <execute>VirtualBox</execute>
       </action>
     </keybind>
+    <keybind key="W-b">
+      <action name="Execute">
+        <execute>thorium-browser</execute>
+      </action>
+    </keybind>
     <keybind key="W-c">
       <action name="Execute">
         <execute>google-chrome</execute>
