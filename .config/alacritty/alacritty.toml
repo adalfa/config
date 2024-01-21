@@ -1,0 +1,6 @@
+[font]
+size = 8.0
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 0.4
