@@ -275,7 +275,7 @@
     </keybind>
     <keybind key="W-k">
       <action name="Execute">
-        <execute>/home/andrea/.local/kitty.app/bin/kitty</execute>
+        <execute>kitty</execute>
       </action>
       </keybind>
     <keybind key="XF86Launch1">
