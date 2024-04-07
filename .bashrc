@@ -27,6 +27,7 @@ alias ll='ls -l --color=auto'
 alias ls='ls --color=auto'
 alias cdc='cd ~/doc'
 alias cdw='cd ~/Downloads'
+alias cdg='cd /usr/local/share/store/vm/games'
 alias cds='cd ~/src'
 alias cdm='cd ~/Music'
 alias cfrc='vim ~/.config/openbox/rc.xml'
@@ -43,6 +44,7 @@ alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 
 source "$HOME/.cargo/env"
+source ~/.local/share/icons-in-terminal/icons_bash.sh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
