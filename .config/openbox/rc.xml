@@ -300,7 +300,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <execute>xterm</execute>
+        <execute>xterm -fa "DejaVu Sans Mono for Powerline:style=Book"</execute>
       </action>
     </keybind>
     <keybind key="W-a">
