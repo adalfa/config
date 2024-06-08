@@ -1,0 +1,26 @@
+XTerm*background: black
+XTerm*foreground:       grey
+XTerm*saveLines:        1024
+XTerm*sessionMgt:       false
+XTerm*transparent:       true
+xterm*transparent:       true
+xterm*renderFont:	true
+#xterm*faceName:		FiraMono
+#xterm*faceName:   xft:FiraMono:style=Light:pixelsize=10:antialias=true
+XTerm*faceName:   Droid Sans Mono Slashed for Powerline
+xterm*faceSize: 8
+
+rxvt*background:	black
+rxvt*foreground:	grey
+
+rxvt*saveLines:        1024
+#rxvt*backgroundPixmap:	/home/andrea/tiles/homer
+rxvt*loginShell:	True
+rxvt*scrollBar_floating:	False
+wterm*foreground: white
+wterm*background: black
+wterm*transparent: true
+wterm*shading: 30
+wterm*font: MiscFixed
+wterm*loginShell:	True
+#wterm*backgroundPixmap:	/home/andrea/tiles/homer
