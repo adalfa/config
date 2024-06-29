@@ -245,7 +245,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-	      <execute>~/bin/slimjet/flashpeak-slimjet</execute>
+	      <execute>microsoft-edge</execute>
       </action>
     </keybind>
     <keybind key="W-t">
