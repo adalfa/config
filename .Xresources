@@ -1,3 +1,4 @@
+Xft.dpi: 144
 XTerm*background: black
 XTerm*foreground:       grey
 XTerm*saveLines:        1024
