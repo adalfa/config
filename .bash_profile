@@ -14,5 +14,5 @@ export EC2_HOME=/usr/local/src/ec2-api-tools
 #export PATH=$PATH:$EC2_HOME/bin
 export EC2_PRIVATE_KEY=~/ec2/pk-XS56YFGHQAK2GJE2JOVK3H46G5WCVJTU.pem
 export EC2_CERT=~/ec2/cert-XS56YFGHQAK2GJE2JOVK3H46G5WCVJTU.pem
-source ~/ec2/eu-settings
+[ -r ~/ec2/eu-settings ] && source ~/ec2/eu-settings
 
