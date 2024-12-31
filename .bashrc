@@ -40,6 +40,7 @@ alias backup="xterm -e /usr/bin/rclone copy --update --verbose --transfers 30 --
 alias yta='yt -x -f bestaudio/best'
 alias bettie='feh --bg-max --no-fehbg --randomize /home/andrea/doc/screen/bp'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias k=kubectl
 [ -r /home/andrea/.byobu/prompt ] && . /home/andrea/.byobu/prompt   #byobu-prompt#
 
 
