@@ -40,7 +40,8 @@ alias backup="xterm -e /usr/bin/rclone copy --update --verbose --transfers 30 --
 alias yta='yt -x -f bestaudio/best'
 alias bettie='feh --bg-max --no-fehbg --randomize /home/andrea/doc/screen/bp'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias k=kubectl
+alias k=kubectl 
+complete -o default -F __start_kubectl k
 [ -r /home/andrea/.byobu/prompt ] && . /home/andrea/.byobu/prompt   #byobu-prompt#
 
 
@@ -62,4 +63,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source <(kubectl completion bash)
+source <(k completion bash)
