@@ -265,7 +265,7 @@
     </keybind>
     <keybind key="W-v">
       <action name="Execute">
-        <execute>VirtualBox</execute>
+        <execute>virt-manager</execute>
       </action>
     </keybind>
     <keybind key="W-b">
@@ -804,7 +804,7 @@
   </applications>
   <margins>
     <left>0</left>
-    <right>0</right>
+    <right>200</right>
     <top>0</top>
     <bottom>10</bottom>
   </margins>
