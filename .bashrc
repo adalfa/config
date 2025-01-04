@@ -64,3 +64,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 source <(k completion bash)
+export PATH=$PATH:~/go/bin
