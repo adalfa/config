@@ -66,3 +66,4 @@ unset __conda_setup
 
 source <(k completion bash)
 export PATH=$PATH:~/go/bin
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
