@@ -20,6 +20,7 @@ export BROWSER=google-chrome
 export EDITOR=vim
 export HISTCONTROL=ignoreboth
 export HISTSIZE=
+export ZED_ALLOW_EMULATED_GPU=1
 alias icat="kitty +kitten icat"
 alias mdcat="mdcat -p"
 alias l.='ls -d .* --color=auto'
@@ -37,6 +38,7 @@ alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf'
 alias ff="find ~/doc -type f -name '*.txt' -o -name '*.md' | cut -f2 | fzf --preview='bat {}'| parallel -X --tty $EDITOR"
 alias fp='zathura --fork $(find ~/doc -type f -name "*.pdf"| cut -f2 | fzf )'
 alias backup="xterm -e /usr/bin/rclone copy --update --verbose --transfers 30 --checkers 8 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s "/home/andrea/doc" "google:backupdoc" &!"
+alias backupconf="xterm -e /usr/bin/rclone copy --update --verbose --transfers 30 --checkers 8 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s  "/home/andrea/.config" "google:configfd16" --exclude=**cache** --ignore-case --exclude=**google-chrome** --exclude=**thorium**  --exclude=**microsoft-edge** &!"
 alias yta='yt -x -f bestaudio/best'
 alias bettie='feh --bg-max --no-fehbg --randomize /home/andrea/doc/screen/bp'
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
@@ -61,3 +63,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
