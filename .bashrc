@@ -21,6 +21,7 @@ export EDITOR=vim
 export HISTCONTROL=ignoreboth
 export HISTSIZE=
 export ZED_ALLOW_EMULATED_GPU=1
+export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
 alias icat="kitty +kitten icat"
 alias mdcat="mdcat -p"
 alias l.='ls -d .* --color=auto'
@@ -65,5 +66,3 @@ unset __conda_setup
 
 test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
