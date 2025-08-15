@@ -33,7 +33,7 @@ alias cdm='cd ~/Music'
 alias cfrc='vim ~/.config/openbox/rc.xml'
 alias cfbs='vim ~/.bashrc'
 alias yt='youtube-dl --add-metadata'
-alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf'
+alias ft='du -a ~/Downloads/*.torrent | cut -f2 | fzf | xclip -sel primary'
 alias ff="find ~/doc -type f -name '*.txt' -o -name '*.md' | cut -f2 | fzf --preview='bat {}'| parallel -X --tty $EDITOR"
 alias fp='zathura --fork $(find ~/doc -type f -name "*.pdf"| cut -f2 | fzf )'
 alias backup="xterm -e /usr/bin/rclone copy --update --verbose --delete-excluded --exclude ".git/" --transfers 30 --checkers 8 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s "/home/andrea/doc" "google:backupdoc" &!"
