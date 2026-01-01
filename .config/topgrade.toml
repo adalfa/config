@@ -1,17 +1,18 @@
+[misc]
 # Don't ask for confirmations
 #assume_yes = true
-
+pre_sudo = true
 # Disable specific steps - same options as the command line flag
-disable = [ "conda"]
+disable = [ "conda","auto_cpufreq","clam_av_db","jetbrains_aqua", "jetbrains_clion", "jetbrains_datagrip", "jetbrains_dataspell", "jetbrains_gateway", "jetbrains_goland", "jetbrains_idea", "jetbrains_mps", "jetbrains_phpstorm", "jetbrains_pycharm", "jetbrains_rider", "jetbrains_rubymine", "jetbrains_rustrover", "jetbrains_toolbox", "jetbrains_webstorm"]
 
 # Ignore failures for these steps
-ignore_failures = ["gem","dotnet"]
+ignore_failures = ["gem","dotnet","containers"]
 
 # Run specific steps - same options as the command line flag
 #only = ["system", "emacs"]
 
 # Do not ask to retry failed steps (default: false)
-#no_retry = true
+no_retry = true
 
 # Run inside tmux
 #run_in_tmux = true
@@ -35,12 +36,13 @@ ignore_failures = ["gem","dotnet"]
 #cleanup = true
 
 [git]
-#max_concurrency = 5
+max_concurrency = 5
 # Additional git repositories to pull
-#repos = [
-#    "~/src/*/",
-#    "~/.config/something"
-#]
+repos = [
+    "~/bin/testssl.sh",
+"~/bin/letsencrypt"
+
+]
 
 # Don't pull the predefined git repos
 #predefined_repos = false
