@@ -39,8 +39,7 @@ no_retry = true
 max_concurrency = 5
 # Additional git repositories to pull
 repos = [
-    "~/bin/testssl.sh",
-"~/bin/letsencrypt"
+    "~/bin/testssl.sh"
 
 ]
 
